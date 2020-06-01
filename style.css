@@ -1,0 +1,259 @@
+
+/* Logo Styles */
+
+header .navbar .navbar-brand .logo{
+    position: relative;
+    width: 2.7em;
+    top: -0.25rem;
+}
+header .navbar .navbar-brand{
+    font-size: 1.5em;
+}
+header .navbar .menu:after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: rgb(105, 75, 75);
+    transition: width .3s ease-in-out;
+}
+
+/* Fixed Elements */
+
+.navbar .small-menu{
+    position: fixed;
+    top: 1.1rem;
+    transform: translateX(77vw);
+}
+
+/* Image Carousel */
+
+#marketing .carousel-inner{
+    width: 100vw;
+    height: 70vh;
+    background-color: #EEE;
+    overflow: hidden;
+}
+#marketing .carousel-inner .carousel-item .image-1,
+#marketing .carousel-inner .carousel-item .image-3{
+    position: relative;
+    top: 7em;
+    left: 10em;
+    width: 50vw;
+    object-fit: cover;
+}
+#marketing .carousel-inner .carousel-item .image-2{
+    position: relative;
+    top: 3em;
+    left: 3em;
+    height: 50vw;
+    object-fit: cover;
+}
+#marketing .carousel-inner .carousel-item .right-content{
+    position: relative;
+    width: 400px;
+    height: 225px;
+    top: 21em;
+    left: 10em;
+}
+#marketing .carousel-inner .carousel-item .left-content{
+    position: relative;
+    width: 400px;
+    height: 225px;
+    top: 21em;
+    left: 17em;
+    text-align: right;
+}
+#marketing .carousel-inner .carousel-item .right-content .price-right{
+    font-size: 2.5em;
+    margin-left: 50px;
+}
+#marketing .carousel-inner .carousel-item .left-content .price-left{
+    font-size: 2.5em;
+    margin-right: 50px;
+}
+#marketing .carousel-inner .carousel-item .right-content .price-right,
+#marketing .carousel-inner .carousel-item .left-content .price-left,
+#marketing .carousel-inner .carousel-item .right-content .product-name,
+#marketing .carousel-inner .carousel-item .left-content .product-name{
+    color: #333;
+}
+#marketing .carousel-inner .carousel-item .right-content .button-right{
+    padding: 10px 20px;
+    margin-left: 120px;
+    background: grey;
+    border: grey;
+}
+
+#marketing .carousel-inner .carousel-item .left-content .button-left{
+    padding: 10px 20px;
+    margin-right: 120px;
+    background: grey;
+    border: grey;
+}
+#marketing .carousel-inner .carousel-item .right-content .button-right:hover,
+#marketing .carousel-inner .carousel-item .left-content .button-left:hover{
+    background-color: #333;
+}
+
+/* Indicators */
+
+.fa-arrow-left,
+.fa-arrow-right{
+    color: grey;
+}
+.carousel .carousel-indicators li{
+    background-color: #fff;
+    background-color: rgba(70, 70, 70, 0.25);
+}
+  
+.carousel .carousel-indicators .active {
+    background-color: #444;
+}
+
+/* Top Section */
+
+.our-top .container .top-year{
+    font-family: 'Oranienbaum', serif;
+}
+.our-top .container .description{
+    font-size: 1.2em;
+}
+.container .product-info-left{
+    background: linear-gradient(135deg, rgba(211, 211, 211, 0.65), rgb(255, 255, 255));
+    color: #333;
+}
+.container .product-info-right{
+    background: linear-gradient(225deg, c, rgb(255, 255, 255));
+    color: #333;
+}
+.our-top .container{
+    position: relative;
+    margin-top: 5.5rem;
+}
+.our-top .row .top-button{
+    padding: 10px 20px;
+    background: grey;
+    border: grey;
+}
+.our-top .row .top-button:hover{
+    background-color: #333;
+}
+
+/* Inspiration */
+
+.inspiration .dream{
+    height: 350px;
+    background-image: url(https://images.unsplash.com/photo-1556911073-38141963c9e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+    color: white;
+}
+.inspiration .container .dream .kitchen,
+.inspiration .container .necesary-things .things{
+    font-size: 2.5em;
+}
+.inspiration .necesary-things{
+    height: 350px;
+    background-image: url(https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1298&q=80);
+    background-size: cover;
+    color: white;
+}
+.inspiration .rest{
+    height: 300px;
+    background-image: url(https://images.unsplash.com/photo-1575501265016-ae78c708a09c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80);
+    background-size: cover;
+    color: white;
+}
+.inspiration .work{
+    height: 300px;
+    background-image: url(https://images.unsplash.com/photo-1523908511403-7fc7b25592f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+    color: white;
+}
+.inspiration .world{
+    height: 300px;
+    background-image: url(https://images.unsplash.com/photo-1559954974-21a3fe081782?ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80);
+    background-size: cover;
+    color: white;
+}
+.inspiration .img-button{
+    border: solid 1px white;
+    background-color: rgba(255, 255, 255, 0.145);
+}
+
+/* Services */
+
+.list1 a,
+.list2 a,
+.list3 a,
+.list4 a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #FFFFFF;
+}
+.list1 a:hover,
+.list2 a:hover,
+.list3 a:hover,
+.list4 a:hover{
+    color: yellowgreen;
+    text-decoration: underline;
+}
+.list1 a:active,
+.list2 a:active,
+.list3 a:active,
+.list4 a:active{
+    color: olivedrab;
+}
+
+/* Social-Media */
+
+footer .social-media a{
+    text-decoration: none;
+    color: #FFF;
+}
+footer .social-media a>i{
+    font-size: 1.2em;
+}
+
+/* Footer Styling */
+
+footer{
+    background-color: #0058A3;
+}
+
+/* Fix font-size */
+
+@media (max-width: 991px){
+    header .navbar .navbar-collapse{
+        font-size: 0.8em;
+    }
+    .products-carousel{
+        display: none;
+    }
+}
+
+/* Align Buttons */
+
+@media (max-width: 767px){
+    .navbar .account{
+    position: fixed;
+    top: 0.75rem;
+    transform: translateX(63vw);
+    }
+    .container .lamp-img{
+        order: 2;
+        margin-top: 1rem;
+    }
+    .container .lamp-info{
+        order: 1;
+    }
+    .container .product-img{
+        margin-top: 1rem;
+    }
+}
+@media (max-width: 670px){
+    .navbar .small-menu{
+        position: fixed;
+        transform: translateX(82vw);
+    }
+}

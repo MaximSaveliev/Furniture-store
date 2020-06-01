@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" 
+    integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Brand Navigation -->
+        <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+            <div class="container">
+            <a class="navbar-brand" href=""><img src="https://img.icons8.com/clouds/100/000000/interior-accesories.png" class="logo"/>&nbsp;&nbsp;<span>I Home</span></a>
+                <button class="navbar-toggler order-2 small-menu" type="button" data-toggle="collapse" data-target="#navbar-collapse-1"><i class="fas fa-dollar-sign"></i></button>
+            <div class="collapse navbar-collapse text-center" id="navbar-collapse-1">
+                <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link menu" href="">NEW IN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu" href="">FURNITURE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu" href="">DECORATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu" href="">BRANDS</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link menu" href="" id="magazine" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MAGAZINE&nbsp;<i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="">Location</a>
+                        <a class="dropdown-item" href="">Rest</a>
+                        <a class="dropdown-item" href="">Outlet</a>
+                    </div>
+                </li>
+                </ul>
+            </div>
+            <ul class="d-flex flex-row ml-auto navbar-nav account">
+                <li class="nav-item px-2">
+                    <a class="nav-link" href=""><i class="far fa-user"></i></a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link"href=""><i class="far fa-heart"></i></a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href=""><i class="fas fa-shopping-bag"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Products-Carousel -->
+    <section class="products-carousel">
+        <div id="marketing" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li class="indicators"data-target="#marketing" data-slide-to="0" class="active"></li>
+              <li data-target="#marketing" data-slide-to="1"></li>
+              <li data-target="#marketing" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                        <div class="row">   
+                            <div class="col-lg-6">
+                                <div class="slide-image">
+                                    <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80" class="image-1" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 info">
+                                <div class="slide-content right-content">
+                                    <h1 clasd="product-name">English Loft</h1>
+                                    <p class="price price-right">1500$</p>
+                                    <a href="" class="btn btn-primary btn-lg button-right">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">   
+                        <div class="col-lg-6 info">
+                            <div class="slide-content left-content">
+                                <h1 class="product-name">Thailand сhill</h1>
+                                <p class="price price-left">999$</p>
+                                <a href="" class="btn btn-primary btn-lg button-left">Buy</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="slide-image">
+                                <img src="https://images.unsplash.com/photo-1544030288-e6e6108867f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" class="image-2" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">   
+                        <div class="col-lg-6">
+                            <div class="slide-image">
+                                <img src="https://images.unsplash.com/photo-1519643381401-22c77e60520e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80" class="image-3" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 info">
+                            <div class="slide-content right-content">
+                                <h1 class="product-name">French Сhalet</h1>
+                                <p class="price price-right">2500$</p>
+                                <a href="" class="btn btn-primary btn-lg button-right">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#marketing" role="button" data-slide="prev">
+              <span aria-hidden="true"><i class="fas fa-arrow-left"></i></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#marketing" role="button" data-slide="next">
+              <span aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </section>
+    <!-- Tops -->
+    <section class="our-top my-5">
+        <div class="container">
+            <div class="col-12 text-center top-year"><h1>Top 2018</h1></div>
+            <div class="row mt-3 mb-4 product-info-left">
+                <div class="col-lg-6 text-center my-auto col-sm-12">
+                    <h2>Moby Accent Chair</h2>
+                    <p class="description">Warm and welcoming, neat and stylish. The supporting seat cushions, the cover’s soft finish and the tight fit gives this sofa a perfect balance between its comfort, functions and look. </p>
+                    <a href="" class="btn btn-primary btn-lg top-button">Buy</a>
+                </div>
+                <div class="col-lg-6 col-sm-12 product-img">
+                    <div class="sketchfab-embed-wrapper">
+                        <iframe title="A 3D model" width="100%" height="480" src="https://sketchfab.com/models/59cf5dd1f4b64f2692d6faddf881244b/embed?autospin=0.2&amp;autostart=1&amp;preload=1&amp;ui_controls=0&amp;ui_infos=0&amp;ui_inspector=0&amp;ui_stop=0&amp;ui_watermark=0&amp;ui_watermark_link=0" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center top-year"><h1>Top 2019</h1></div>
+            <div class="row mt-3 mb-4 product-info-right">
+                <div class="col-lg-6 col-sm-12 lamp-img">
+                    <div class="sketchfab-embed-wrapper">
+                        <iframe title="A 3D model" width="100%" height="480" src="https://sketchfab.com/models/bcf55e9a82d0488dba21c2ba02f9ccff/embed?autospin=0.2&amp;autostart=1&amp;preload=1&amp;ui_controls=0&amp;ui_infos=0&amp;ui_inspector=0&amp;ui_stop=0&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center my-auto col-sm-12 lamp-info">
+                    <h2>Diesel FOSCARINI</h2>
+                    <p class="description">You can easily direct the light where you want it because the lamp arm is adjustable.
+                        Provides a directed light that is great for reading.
+                        LED light bulb included.</p>
+                    <a href="" class="btn btn-primary btn-lg top-button">Buy</a>
+                </div>
+            </div>
+            <div class="col-12 text-center top-year"><h1>Top 2020</h1></div>
+            <div class="row mt-3 mb-4 product-info-left">
+                <div class="col-lg-6 text-center my-auto col-sm-12">
+                    <h2>Scandinavian Dining </br> Table and Chair Set</h2>
+                    <p class="description">Seat cushions filled with high resilience foam and polyester fiber wadding provides great seating comfort.
+                        Removable armrests make it easy to add on a chaise lounge.
+                        This cover is made of dope-dyed GUNNARED fabric in polyester. It is a durable fabric with a wool-like feel, a warm look and a two-toned mélange effect.</p>
+                    <a href="" class="btn btn-primary btn-lg top-button">Buy</a>
+                </div>
+                <div class="col-lg-6 col-sm-12 product-img">
+                    <div class="sketchfab-embed-wrapper">
+                        <iframe title="A 3D model" width="100%" height="480" src="https://sketchfab.com/models/a93b6e7270044b88bd1ace5942e43e20/embed?autospin=0.2&amp;autostart=1&amp;preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Inspiration -->
+    <section class="inspiration my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 dream">
+                    <h3 class="pt-5 kitchen">Cook your dream kitchen</h3>
+                    <a href="" class="btn btn-primary btn-lg top-button mt-5 img-button">Choose Products</a>
+                </div>
+                <div class="col-6 necesary-things">
+                    <h3 class="pt-5 things">All the essentials</h3>
+                    <p class="pt-5">Useful things that come in handy in any home.</p>
+                    <a href="" class="btn btn-primary btn-lg top-button img-button">Choose Products</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 rest">
+                    <h3 class="pt-4">Rest as you like</h3>
+                    <p class="pt-5">Furnish your bedroom</p>
+                    <a href="" class="btn btn-primary btn-lg top-button img-button">Choose Products</a>
+                </div>
+                <div class="col-4 work">
+                    <h3 class="pt-4">Work comfortably anywhere</h3>
+                    <p class="pt-5">Prepare the workplace</p>
+                    <a href="" class="btn btn-primary btn-lg top-button img-button">Choose Products</a>
+                </div>
+                <div class="col-4 world">
+                    <h3 class="pt-4">Get inspired around the world</h3>
+                    <p class="pt-5">Improve your home</p>
+                    <a href="" class="btn btn-primary btn-lg img-button">Choose Products</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="pt-3">
+        <div class="container">  
+            <div class="row">
+                <ul class="col-3 list-unstyled list1">
+                    <li class="pb-2"><a href=""><h5><i class="fas fa-hands-helping"></i>&nbsp;Services IHOME</h5></a></li>
+                    <li><a href="">Delivery and pickup</a></li>
+                    <li><a href="">Exchange and Return</a></li>
+                    <li><a href="">Installment and loan</a></li>
+                    <li><a href="">Assembly and installation</a></li>
+                    <li><a href="">Рlanning</a></li>
+                    <li><a href="">Project Payment</a></li>
+                </ul>
+                <ul class="col-3 list-unstyled list2">
+                    <li class="pb-2"><a href=""><h5><i class="fas fa-store-alt"></i>&nbsp;All About IHOME</h5></a></li>
+                    <li><a href="">About company</a></li>
+                    <li><a href="">Democratic design</a></li>
+                    <li><a href="">Work in IHOME</a></li>
+                    <li><a href="">People and planet</a></li>
+                </ul>
+                <ul class="col-3 list-unstyled list3">
+                    <li class="pb-2"><a href=""><h5><i class="fas fa-phone"></i>&nbsp;Contact us</h5></a></li>
+                    <li><a href="">Feedback</a></li>
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="">Shops and studios</a></li>
+                    <li><a href="">To Landowners</a></li>
+                    <li><a href="">To Suppliers</a></li>
+                    <li><a href="">Press office</a></li>
+                </ul>
+                <ul class="col-3 list-unstyled list4">
+                    <li class="pb-2"><a href=""><h5><i class="fas fa-book-open"></i>&nbsp;Catalog IHOME</h5></a></li>
+                    <li><a href="">Catalog</a></li>
+                    <li><a href="">Brochures</a></li>
+                    <li><a href="">Buying Guide</a></li>
+                </ul>
+            </div>
+            <div class="row text-center py-3">
+                <div class="col-12 d-flex justify-content-around social-media">
+                    <a href=""><i class="fab fa-facebook"></i>Facebook</a>
+                    <a href=""><i class="fab fa-twitter"></i>Twitter</a>
+                    <a href=""><i class="fab fa-instagram"></i>Instagram</a>
+                    <a href=""><i class="fab fa-youtube text-danger"></i>Youtube</a>
+                    <a href=""><i class="fab fa-telegram"></i>Telegram</a>
+                    <a href=""><i class="fab fa-amazon"></i>Amazon</a>
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-12 text-white">Made with  <i class="fas fa-heart"></i> &  <i class="fas fa-coffee"></i> in Bentonville, Boston, Joplin, Seattle, and Vergennes.</div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
